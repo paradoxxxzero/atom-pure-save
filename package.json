@@ -1,10 +1,9 @@
 {
   "name": "pure-save",
   "main": "./lib/pure-save",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A save function that can bypasses all save hooks like format on save functions. Works with atom-ide-ui too. Useful for saving a file without auto-format when needed.",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "pure-save:save"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
